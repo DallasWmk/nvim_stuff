@@ -10,7 +10,7 @@ null_ls.setup({
     debug = false,
     sources = {
 	    formatting.black.with({ extra_args = { "--fast"}}),
-        diagnostics.pylint,
+        --diagnostics.pylint,
         diagnostics.flake8,
     },
 })
